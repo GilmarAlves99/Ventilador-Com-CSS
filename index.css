@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div.geral {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+div.ventilador {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 100%;
+    background-color: #ececec;
+}
+
+div.d1 {
+    font-size: 2em;
+    width: 85%;
+    position: absolute;
+    height: 3%;
+    background-color: #08080896;
+    animation: oi1 infinite 0.11s;
+}
+
+div.d2 {
+    font-size: 2em;
+    position: absolute;
+    width: 85%;
+    height: 3%;
+    background-color: #08080896;
+    animation: oi infinite .21s;
+}
+
+div.d3 {
+    font-size: 2em;
+    position: absolute;
+    width: 85%;
+    height: 3%;
+    background-color: #08080896;
+    animation: oi infinite 0.31s;
+}
+
+div.bolinha {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: #333333;
+    z-index: 2;
+}
+
+div.corpo {
+    top: 150px;
+    position: absolute;
+    width: 10px;
+    height: 150px;
+    background-color: #080808;
+}
+
+div.flores {
+    background-image: url(http://pa1.narvii.com/6851/3266ea7b429ff8074c2f0afb2d62defad88ef4cb_00.gif);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: 2;
+    position: absolute;
+    width: 200%;
+    height: 200%;
+}
+
+div.pe {
+    top: 300px;
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    background-color: #080808;
+}
+
+@keyframes oi {
+    100% {
+        transform: rotate(-360deg);
+        /* Equal to rotateZ(45deg) */
+    }
+}
+
+@keyframes oi1 {
+    100% {
+        transform: rotate(360deg);
+        /* Equal to rotateZ(45deg) */
+    }
+}
+
+@keyframes oi3 {
+    100% {
+        transform: rotate(360deg);
+        /* Equal to rotateZ(45deg) */
+    }
+}
