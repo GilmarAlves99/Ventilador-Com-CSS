@@ -1,2 +1,1 @@
-# Ventilador-Com-CSS
-Nesse projeto fiz um ventilador com html e css
+<div align='center'> <h1>Oque você verá aqui?</h1> <div align='left'> <h2>Esse Projeto foi feito por diversão.</h2> <h3>Foi usado HTML , CSS e um gif (que é as folhas).</h3> link do site em produção : https://gilmaralves99.github.io/Ventilador-Com-CSS/ </div> <h1> Ventilador feito com HTML E CSS</h1> <img src="https://user-images.githubusercontent.com/68366424/134611378-00b766fa-0ec6-4d8e-a25c-af0569631729.gif" width='100%' height='100%' > </div>
